@@ -21,7 +21,7 @@ func game_over():
 func new_game():
 	score = 0
 	$Player.start($StartPosition.position)
-	$StartTimer
+	$StartTimer.start()
 
 
 func _on_mob_timer_timeout():
